@@ -1,4 +1,6 @@
-if (navigator.userAgent.indexOf("Chrome") == -1){
+if (window.innerWidth <= 968) {
+  alert("For better project control and visualization, I recommend using a desktop computer.");
+} else if (navigator.userAgent.indexOf("Chrome") == -1){
     alert("If you're not able to load the website projects directly, I reccomend using a Chromium-Based browser for the purpose, as:\n- Google Chrome\n- Microsoft Edge,\n- Brave,\n- Opera,\n- Vivaldi,\n- Chromium.");
 }
 
